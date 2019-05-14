@@ -13,7 +13,7 @@ MIN_TARGET = 0
 MAX_TARGET = 2**256//2**20 - 1
 PERSIST = True
 WORKER_PORT = 9876
-BOOTSTRAP_ADDRS = 'dnsseeds.benjamin-wilson.co.uk 192.168.180.58:10333'.split(' ')
+BOOTSTRAP_ADDRS = 'dnsseeds.benjamin-wilson.co.uk 192.168.180.9'.split(' ')
 ANNOUNCE_CHANNEL = '#p2pool-bec'
 VERSION_CHECK = lambda v: None if 100400 <= v else 'Litecoin version too old. Upgrade to 0.10.4 or newer!'
 VERSION_WARNING = lambda v: None
